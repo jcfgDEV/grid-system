@@ -1,9 +1,12 @@
 {
   "name": "grid-system-component",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "Componente para armar una carta personalizadas responsivas",
   "main": "/src/index.js",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -15,6 +18,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "build:css": "tailwindcss build styles/globals.css -o dist/styles.css",
     "deploy": "npm version patch && npm publish"
   },
   "dependencies": {
