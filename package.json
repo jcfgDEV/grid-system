@@ -1,7 +1,7 @@
 {
   "name": "grid-system-component",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.4.1",
   "description": "Componente para armar una carta personalizadas responsivas",
   "main": "/src/index.js",
   "files": [
