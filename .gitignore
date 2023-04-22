@@ -3,4 +3,5 @@ node_modules
 .vscode
 .vercel
 .next
+dist
 yarn-error.log
