@@ -5,7 +5,8 @@
   "description": "Componente para armar una carta personalizadas responsivas",
   "main": "/src/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src/index.js"
   ],
   "publishConfig": {
     "access": "public"
