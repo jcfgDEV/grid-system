@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import '../dist/styles.css'
 
 export function Grid(props) {
     return (
