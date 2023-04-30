@@ -57,7 +57,9 @@ The Card3 component receives the following variables:
 
 ## Examples
 
-**NOTE: You can access 3 different card designs and different use cases. They are called Card, Card2 and Card3**
+**NOTE: You can access 3 different card designs and different use cases. They are called Card, Card2 and Card3 and if you only want to use the grid system without cards. creating your own letter design then you just have to import Grid**
+
+
 
 ### Creating one by one manually and entering the data
 
