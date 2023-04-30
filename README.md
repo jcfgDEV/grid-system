@@ -53,7 +53,7 @@ The Card3 component receives the following variables:
 - **Button**: A text string that represents the text that will be displayed on the component's button.
 - **Category**: A text string representing the category of the component.
 
-![Card2](https://i.postimg.cc/43VSfhmW/Card3-Component.png)
+![Card3](https://i.postimg.cc/vTv454nv/Card3-Component.png)
 
 ## Examples
 
