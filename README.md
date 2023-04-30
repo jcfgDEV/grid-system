@@ -123,9 +123,8 @@ The Card3 component receives the following variables:
 # Breakpoints and Corresponding Devices
 
 | Break point | Corresponding Device | Typical Resolution |
-|------------|------------------------------|------ -------------|
-| sm | Small smartphones | 640px |
-| md | Tablets in landscape mode | 768px |
-| lg | Laptop and Desktop Computer Screens | 1024px |
-| xl | Larger screens, such as HDTV screens | 1280px |
-| 2xl | Extremely large screens, such as cinema or advertising screens | 1536px |
+|-------------|----------------------|---------------------|
+| sm          | Small smartphones     | 640px               |
+| md          | Tablets in landscape mode | 768px           |
+| lg          | Laptop and Desktop Computer Screens | 1024px |
+| xl          | Larger screens, such as HDTV screens | 1280px |
