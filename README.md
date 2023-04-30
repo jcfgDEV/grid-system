@@ -20,7 +20,7 @@ The Card component receives the following variables:
 - **Date**: A text string representing the date the card was created.
 - **Avatar**: A text string representing the URL of the author's avatar image.
 
-![Card](https://i.postimg.cc/Z59QQQZt/Card-Component.png)
+[Card-Component.png](https://postimg.cc/zyrpb0V0)
 
 ### Card2
 
