@@ -64,26 +64,27 @@ The Card3 component receives the following variables:
 
 ### entering an API or an array and traversing it using map()
 
-const array2 = [
-    {
-      url: "https://i.postimg.cc/wx5whRxc/twitter-card.png",
-      click: 'https://www.google.com/',
-      title: "Ejemplo de sitio web 2",
-      subtitle: "Otro sitio web de ejemplo",
-      button: "Más información",
-      category: "noticias"
-    },
-    {
-      url: "https://i.postimg.cc/wx5whRxc/twitter-card.png",
-      click: 'https://www.google.com/',
-      title: "Otro ejemplo de sitio",
-      subtitle: "Otro sitio web de ejemplo diferente",
-      button: "Conocer más",
-      category: "noticias"
-    },
-  ];
 
 ```
+    const array2 = [
+        {
+        url: "https://i.postimg.cc/wx5whRxc/twitter-card.png",
+        click: 'https://www.google.com/',
+        title: "Ejemplo de sitio web 2",
+        subtitle: "Otro sitio web de ejemplo",
+        button: "Más información",
+        category: "noticias"
+        },
+        {
+        url: "https://i.postimg.cc/wx5whRxc/twitter-card.png",
+        click: 'https://www.google.com/',
+        title: "Otro ejemplo de sitio",
+        subtitle: "Otro sitio web de ejemplo diferente",
+        button: "Conocer más",
+        category: "noticias"
+        },
+    ];
+
     import { Grid, Card2 } from "grids-system"
 
     <Grid sm={1} md={2} lg={3} xl={4} Xvariants="p-12 gap-2">
