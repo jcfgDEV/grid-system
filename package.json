@@ -24,7 +24,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:css": "tailwindcss build -i styles/styles.css -o dist/styles.css",
     "deploy": "npm version patch && npm publish"
   },
   "dependencies": {

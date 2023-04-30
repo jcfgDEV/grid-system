@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../dist/styles.css'
+import '../dist/output.css'
 
 function Grid({ sm, md, lg, xl, Xvariants, children }) {
     const gridSM = `grid-cols-${sm}`;
