@@ -4,43 +4,42 @@
 ![Capture](https://i.postimg.cc/RVKJZwrn/Captura-de-ecr-2023-04-30-023204.png)
 
 
+```
+Basic Explanation
 
-## Basic Explanation
+sm: A number representing the number of columns to display on small devices (640px to 767px screen size).
+md: A number representing the number of columns to display on medium devices (768px to 1023px screen size).
+lg: A number representing the number of columns to display on large devices (1024px to 1279px screen size).
+xl: A number representing the number of columns to display on extra large devices (screen size 1280px and up).
+Xvariants: A text string containing one or more additional style classes to be applied to the element containing the children.
+The Card component
+This component receives the following variables:
 
-sm – A number representing the number of columns to display on small devices (640px to 767px screen size).
-md – A number representing the number of columns to display on medium devices (768px to 1023px screen size).
-lg – A number representing the number of columns to display on large devices (1024px to 1279px screen size).
-xl – A number representing the number of columns to display on extra large devices (screen size 1280px and up).
-Xvariants – A text string containing one or more additional style classes to be applied to the element containing the children.
-
-## The Card component receives the following variables:
-
-Url – A text string representing the URL of the image to be displayed in the card.
+Url: A text string representing the URL of the image to be displayed in the card.
 Title: A text string that represents the title of the card.
 Subtitle: A text string that represents the subtitle of the card.
 Name: A text string representing the name of the component's author.
-Date – A text string representing the date the card was created.
+Date: A text string representing the date the card was created.
 Avatar: A text string representing the URL of the author's avatar image.
+The Card2 component
+This component receives the following variables:
 
-
-## The Card2 component receives the following variables:
-
-Url – A text string representing the URL of the image to be displayed in the component.
+Url: A text string representing the URL of the image to be displayed in the component.
 Title: A text string that represents the title of the component.
 Subtitle: A text string that represents the subtitle of the component.
-Click – A text string representing the URL the component will go to when clicked.
+Click: A text string representing the URL the component will go to when clicked.
 Name: A text string representing the name of the component's author.
-Date – A text string representing the date the component was created.
+Date: A text string representing the date the component was created.
+The Card3 component
+This component receives the following variables:
 
-
-## The Card3 component receives the following variables:
-
-Url – A text string representing the URL of the image to be displayed in the component.
+Url: A text string representing the URL of the image to be displayed in the component.
 Title: A text string that represents the title of the component.
 Subtitle: A text string that represents the subtitle of the component.
-Click – A text string representing the URL the component will go to when clicked.
-Button – A text string that represents the text to be displayed on the component's button.
+Click: A text string representing the URL the component will go to when clicked.
+Button: A text string that represents the text to be displayed on the component's button.
 Category: A text string representing the category of the component.
+```
 
 
 ## Examples
