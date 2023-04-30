@@ -75,7 +75,7 @@ The Card3 component receives the following variables:
 ```
 
 
-### entering an API or an array and traversing it using map()
+### Entering an API or Array and using a map()
 
 
 ```
