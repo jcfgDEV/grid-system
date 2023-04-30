@@ -7,6 +7,12 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    {
+      pattern: /grid-cols-./,
+      variants: ['sm', 'md', 'lg', 'xl'],
+    },
+  ],
   theme: {
     extend: {},
   },
