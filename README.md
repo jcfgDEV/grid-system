@@ -1,4 +1,3 @@
-![Capture](https://i.postimg.cc/1tcjxqtd/Captura_de_ecrã_2023-04-21_205854.png)
 ![Capture](https://i.postimg.cc/c1K8PVXh/Captura-de-ecr-2023-04-30-022951.png)
 ![Capture](https://i.postimg.cc/KcdgbJW2/Captura-de-ecr-2023-04-30-023039.png)
 ![Capture](https://i.postimg.cc/RVKJZwrn/Captura-de-ecr-2023-04-30-023204.png)
