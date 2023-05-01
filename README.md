@@ -55,6 +55,35 @@ The Card3 component receives the following variables:
 
 ![Card3](https://i.postimg.cc/vTv454nv/Card3-Component.png)
 
+
+### Card4
+
+The Card4 component receives the following variables:
+
+- **Url**: A text string representing the URL of the image to be displayed in the component.
+- **Title**: A text string that represents the title of the component.
+- **Subtitle**: A text string that represents the subtitle of the component.
+- **Click**: A text string representing the URL the component will go to when clicked.
+- **Date**: A text string representing the date the component was created
+
+![Card4](https://i.postimg.cc/L8kzkXhx/Cards4.png)
+
+
+
+### Card5
+
+The Card5 component receives the following variables:
+
+- **Url**: A text string representing the URL of the image to be displayed in the component.
+- **Title**: A text string that represents the title of the component.
+- **Click**: A text string representing the URL the component will go to when clicked.
+
+![Card5](https://i.postimg.cc/bvz1mhtp/Cards5.png)
+
+
+
+
+
 ## Examples
 
 **NOTE: You can access 3 different card designs and different use cases. They are called Card, Card2 and Card3 and if you only want to use the grid system without cards. creating your own letter design then you just have to import Grid**

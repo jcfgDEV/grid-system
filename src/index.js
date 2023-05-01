@@ -31,8 +31,58 @@ Grid.defaultProps = {
 };
 
 
+Card.propTypes = {
+    Url: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    Subtitle: PropTypes.string.isRequired,
+    Avatar: PropTypes.string.isRequired,
+    Name: PropTypes.string.isRequired,
+    Date: PropTypes.string.isRequired,
+};
+
+Card2.propTypes = {
+    Url: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    Subtitle: PropTypes.string.isRequired,
+    Name: PropTypes.string.isRequired,
+    Date: PropTypes.string.isRequired,
+    Click: PropTypes.string.isRequired,
+};
+
+Card3.propTypes = {
+    Url: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    Subtitle: PropTypes.string.isRequired,
+    Click: PropTypes.string.isRequired,
+    Button: PropTypes.string.isRequired,
+    Category: PropTypes.string.isRequired,
+};
+
+Card4.propTypes = {
+    Url: PropTypes.string.isRequired,
+    Click: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    Subtitle: PropTypes.string.isRequired,
+    Date: PropTypes.string.isRequired,
+};
+
+Card5.propTypes = {
+    Url: PropTypes.string.isRequired,
+    Click: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    Subtitle: PropTypes.string.isRequired,
+    Date: PropTypes.string.isRequired,
+};
+
+Card5.propTypes = {
+    Url: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+};
+
+
 
 function Card({ Url, Title, Subtitle, Name, Date, Avatar }) {
+
     return (
         <>
             <div className="hover:cursor-pointer">
@@ -64,6 +114,7 @@ function Card({ Url, Title, Subtitle, Name, Date, Avatar }) {
 }
 
 function Card2({ Url, Title, Subtitle, Click, Name, Date }) {
+
     return (
         <>
             <a href={Click}>
@@ -96,6 +147,7 @@ function Card2({ Url, Title, Subtitle, Click, Name, Date }) {
 }
 
 function Card3({ Url, Title, Subtitle, Click, Button, Category }) {
+
     return (
         <>
             <div className='flex items-center justify-center'>
@@ -121,32 +173,46 @@ function Card3({ Url, Title, Subtitle, Click, Button, Category }) {
     )
 }
 
-Card.propTypes = {
-    Url: PropTypes.string.isRequired,
-    Title: PropTypes.string.isRequired,
-    Subtitle: PropTypes.string.isRequired,
-    Avatar: PropTypes.string.isRequired,
-    Name: PropTypes.string.isRequired,
-    Date: PropTypes.string.isRequired,
-};
+function Card4({ Url, Click, Title, Subtitle, Date }) {
+    return (
+        <>
+            <div className="content-wrapper">
+                <div className="news-card">
+                    <a href={Click} target='_blank' className="news-card__card-link"></a>
+                    <img src={Url} alt="Image of Card" className="news-card__image" />
+                    <div className="news-card__text-wrapper">
+                        <h2 className="news-card__title">{Title}</h2>
+                        <div className="news-card__post-date">{Date}</div>
+                        <div className="news-card__details-wrapper">
+                            <p className="news-card__excerpt">{Subtitle}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
 
-Card2.propTypes = {
-    Url: PropTypes.string.isRequired,
-    Title: PropTypes.string.isRequired,
-    Subtitle: PropTypes.string.isRequired,
-    Name: PropTypes.string.isRequired,
-    Date: PropTypes.string.isRequired,
-    Click: PropTypes.string.isRequired,
-};
+function Card5({ Title, Url, Click }) {
+    return (
+        <>
+            <a href={Click} target='_blank'>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src={Url} alt="images" />
+                    </div>
+                    <div class="details">
+                        <h2>{Title}</h2>
+                    </div>
+                </div>
+            </a>
+        </>
+    )
+}
 
-Card3.propTypes = {
-    Url: PropTypes.string.isRequired,
-    Title: PropTypes.string.isRequired,
-    Subtitle: PropTypes.string.isRequired,
-    Click: PropTypes.string.isRequired,
-    Button: PropTypes.string.isRequired,
-    Category: PropTypes.string.isRequired,
-};
 
 
-export { Grid, Card, Card2, Card3 };
+
+
+
+export { Grid, Card, Card2, Card3, Card4, Card5 };
