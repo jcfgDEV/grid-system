@@ -1,5 +1,5 @@
 pages/
 node_modules
-dist/modify.css
 .next
 src/modify.js
+dist/styles.css
