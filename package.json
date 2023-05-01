@@ -1,7 +1,7 @@
 {
   "name": "grids-system-components",
   "license": "MIT",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Componente para armar una carta personalizadas responsivas",
   "homepage": "https://github.com/jcfgDEV/grid-system",
   "repository": {
