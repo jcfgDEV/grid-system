@@ -64,7 +64,7 @@ The Card3 component receives the following variables:
 ### Creating one by one manually and entering the data
 
 ```
-    import { Grid, Card3 } from "grids-system"
+    import { Grid, Card3 } from "grids-system-component"
 
     <Grid sm={1} md={2} lg={3} xl={4} Xvariants='p-12 gap-2' >
       <Card3
@@ -100,7 +100,7 @@ The Card3 component receives the following variables:
         },
     ];
 
-    import { Grid, Card2 } from "grids-system"
+    import { Grid, Card2 } from "grids-system-component"
 
     <Grid sm={1} md={2} lg={3} xl={4} Xvariants="p-12 gap-2">
             {array2.map((item, index) => (
