@@ -2,4 +2,4 @@ pages/
 node_modules
 .next
 src/modify.js
-dist/styles.css
+dist/style/
