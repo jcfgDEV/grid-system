@@ -1,3 +1,5 @@
 pages/
 node_modules
 .next
+src/Original.js
+dist/Original.css

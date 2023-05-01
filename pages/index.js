@@ -1,4 +1,4 @@
-import { Grid, Card5 } from "../src/index.js"
+import { Grid, Card5 } from "../src/Original.js"
 
 function Cards() {
   const array2 = [

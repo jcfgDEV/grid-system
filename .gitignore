@@ -5,3 +5,4 @@ node_modules
 .next
 dist
 yarn-error.log
+src/index.js
