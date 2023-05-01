@@ -3,6 +3,6 @@ node_modules
 .vscode
 .vercel
 .next
-dist
+dist/output.css
 yarn-error.log
 src/index.js
